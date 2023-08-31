@@ -1,9 +1,6 @@
 /* ************************************************************************** */
 /** Sensirion SDP8x Digital Differential Pressure Sensor Function Library
 
-  @Company
-    Myriad Sensors
-
   @File Name
     sdp8x_digital.c
 

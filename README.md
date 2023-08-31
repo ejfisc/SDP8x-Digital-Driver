@@ -7,4 +7,4 @@ Create an `sdp8x_handler_t` instance in main. Implement the `*sdp8x_transmit`, `
 The SDP8x Digital sensor uses an I2C interface, the address is `0x25`. The `*sdp8x_transmit` and `*sdp8x_receive` functions should use I2C. The functions for retrieving data from the sensor are defined in the sdp8x_digital.h file. 
 
 ## Debug Output
-A precompiler directive is used to turn debug output on and off. Currently all of the outputs are using `NRF_LOG_INFO` which is a nordic semi SDK specific function, change these to printf or whatever your micro environment uses. 
+A precompiler directive is used to turn debug output on and off. Currently all of the outputs are using `NRF_LOG_INFO` which is a Nordic nRF5 SDK specific function, change these to printf or whatever your micro environment uses. 
